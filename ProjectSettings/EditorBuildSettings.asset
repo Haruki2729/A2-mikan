@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HomeScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/AlarmScene.unity
+    guid: 692454f34e47a944cb7a30ae3a3245b1
   m_configObjects: {}
