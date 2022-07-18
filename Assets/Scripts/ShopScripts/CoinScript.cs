@@ -10,7 +10,7 @@ public class CoinScript : MonoBehaviour
     public Text CoinText;
 
     //ƒRƒCƒ“•Ï”
-    public static int coin = 100;
+    public static int coin = 10000;
 
     void Start()
     {
@@ -20,5 +20,10 @@ public class CoinScript : MonoBehaviour
     void Update()
     {
         CoinText.text = coin.ToString();
+    }
+
+    public static int returncoin()
+    {
+        return coin;
     }
 }

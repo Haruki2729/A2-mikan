@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChikenCloseScript : MonoBehaviour
+public class ChickenCloseScript : MonoBehaviour
 {
-    public void OnClickChikenCloseButton()
+    public void OnClickChickenCloseButton()
     {
-        GameObject[] objects = GameObject.FindGameObjectsWithTag("Chiken");
+        GameObject[] objects = GameObject.FindGameObjectsWithTag("Chicken");
 
         foreach (GameObject ball in objects)
         {

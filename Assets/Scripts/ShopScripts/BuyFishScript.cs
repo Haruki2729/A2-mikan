@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BuyAppleScript : MonoBehaviour
+public class BuyFishScript : MonoBehaviour
 {
     //購入成功・失敗用のテキストオブジェクト
     public Text GetText;
     public Text ErrorText;
 
-    public void OnClickAppleYesButton()
+    public void OnClickChickenYesButton()
     {
         //コインの所持数が金額以上かどうか
-        if(CoinScript.coin >= 100){
-            FoodScript.Apple++;//りんご所持数増加
-            CoinScript.coin -= 100;//コイン減少
-            GetText.text = "りんごを購入しました！";//テキスト表示
+        if(CoinScript.coin >= 400){
+            FoodScript.Fish++;//おさかな所持数増加
+            CoinScript.coin -= 400;//コイン減少
+            GetText.text = "おさかなを購入しました！";//テキスト表示
             StartCoroutine("TextSet");//コルーチンを実行
         }
         else
