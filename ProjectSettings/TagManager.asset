@@ -9,7 +9,11 @@ TagManager:
   - Fish
   - Cake
   - Chicken
+<<<<<<< HEAD
   - No1
+=======
+  - Esaelement
+>>>>>>> kakeru2
   layers:
   - Default
   - TransparentFX
