@@ -18,6 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/BookScene.unity
     guid: babbf25191c46f94388c395f4e92eef6
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/Mission1Scene.unity
     guid: 542aff6a3b388a5448e2227ce2be7085
   - enabled: 1
@@ -26,4 +27,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MissionClearScene.unity
     guid: eaa8845190f3d4948aa8e9e9237f923b
+=======
+    path: Assets/Scenes/Book2Scene.unity
+    guid: f6144b67def91dd43b0fe4886bed23ba
+>>>>>>> kusune
   m_configObjects: {}
