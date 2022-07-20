@@ -9,6 +9,7 @@ EditorUserSettings:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> kusune
       value: 0507055251575f0c090b0a7b41275b444515482c297c7e687b2b1837b0b33639
@@ -21,6 +22,8 @@ EditorUserSettings:
 <<<<<<< HEAD
 >>>>>>> kakeru2
 =======
+=======
+>>>>>>> shirasaki
       value: 545350565d0158580f58597b4275064445154a2c2d7e73687a714f64b4b9676d
       flags: 0
     RecentlyUsedSceneGuid-1:
@@ -36,25 +39,28 @@ EditorUserSettings:
       value: 5b54560352050f0e5c575e7141210644444f192928797f31797b4561b1b63739
       flags: 0
     RecentlyUsedSceneGuid-5:
-      value: 5605060703535f5a5e0c5f7a48220a44424f1d787e7a7133287b1f36b5b06c6d
-      flags: 0
-    RecentlyUsedSceneGuid-6:
       value: 5508065250010f08590b5875117a0b4415154f2b7f7827357e284e61b6b53669
       flags: 0
-    RecentlyUsedSceneGuid-7:
-      value: 0650555e5d015c0a545e0a71147706444e161972297123697f7a4a35bbb2673a
-      flags: 0
-    RecentlyUsedSceneGuid-8:
+    RecentlyUsedSceneGuid-6:
       value: 0257055157035a585a085d2344720a444e4f1c2c2a7f25327b281f6ae4b43561
       flags: 0
-    RecentlyUsedSceneGuid-9:
+    RecentlyUsedSceneGuid-7:
+      value: 5605060703535f5a5e0c5f7a48220a44424f1d787e7a7133287b1f36b5b06c6d
+      flags: 0
+    RecentlyUsedSceneGuid-8:
       value: 500800515d035c095e0f0d7714775c44414e1a7b7f702231787f4960b1e56439
+      flags: 0
+    RecentlyUsedSceneGuid-9:
+      value: 0650555e5d015c0a545e0a71147706444e161972297123697f7a4a35bbb2673a
       flags: 0
     UnityRemoteDevice:
       value: 225f4d46245b0d4902070862342649191512
+<<<<<<< HEAD
 >>>>>>> shirasaki
 =======
 >>>>>>> kusune
+=======
+>>>>>>> shirasaki
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
