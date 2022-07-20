@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class TimeLimit : MonoBehaviour
 {
@@ -29,9 +30,11 @@ public class TimeLimit : MonoBehaviour
 
 		if (totalTime <= 1)
 		{
-			totalTime = 0;
+			totalTime = 10000;
 			Limit();
 			//this.gameObject.SetActive(true);
+			SceneManager.LoadScene("MissionFailureScene");
+
 		}
 
 	}

@@ -38,9 +38,11 @@ public class Shake : MonoBehaviour
 
         if (ShakeCount == 10)
         {
+            ShakeCount = 0;
             // SceneManager.LoadScene("Clear");
             //ShakeText.text = ("Clear");
             ShakeTextL.text = ("Clear");
+            SceneManager.LoadScene("MissionClearScene");
         }
     }
 

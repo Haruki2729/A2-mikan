@@ -750,7 +750,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1067348120}
-        m_TargetAssemblyTypeName: HomeButtonScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: MissionCoin, Assembly-CSharp
         m_MethodName: OnClickHomeButton
         m_Mode: 1
         m_Arguments:
@@ -808,7 +808,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1067348115}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9035e10c84d0662419518540809b93be, type: 3}
+  m_Script: {fileID: 11500000, guid: 3e56653937ba0954b8e866c220f248cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1465592375
