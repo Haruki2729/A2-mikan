@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BookScene.unity
     guid: babbf25191c46f94388c395f4e92eef6
+  - enabled: 1
+    path: Assets/Scenes/Book2Scene.unity
+    guid: f6144b67def91dd43b0fe4886bed23ba
   m_configObjects: {}
