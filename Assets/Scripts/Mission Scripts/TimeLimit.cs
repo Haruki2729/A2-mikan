@@ -12,7 +12,7 @@ public class TimeLimit : MonoBehaviour
 
 	public float totalTime;
 	int seconds;
-	int End = 12345;
+	int End = 0;
 
 	// Use this for initialization
 	void Start()
@@ -28,9 +28,9 @@ public class TimeLimit : MonoBehaviour
 		TimerText.text = seconds.ToString();
 
 
-		if (totalTime <= 1)
+		if (totalTime < 1)
 		{
-			totalTime = 10000;
+			totalTime = 0;
 			Limit();
 			//this.gameObject.SetActive(true);
 			SceneManager.LoadScene("MissionFailureScene");
