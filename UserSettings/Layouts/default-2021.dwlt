@@ -14,23 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 25
-    y: 51
-    width: 1902
-    height: 980
-=======
-    x: 0
-    y: 43.2
-    width: 1536
-    height: 772.8
->>>>>>> shirasaki
+    x: 2.4
+    y: -1037
+    width: 1920
+    height: 997
   m_ShowMode: 4
   m_Title: Project
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -51,13 +44,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1902
-    height: 980
-=======
-    width: 1536
-    height: 772.8
->>>>>>> shirasaki
+    width: 1920
+    height: 997
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -81,15 +69,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1902
-=======
-    width: 1536
->>>>>>> shirasaki
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: 
+  m_LastLoadedLayoutName: 2 by 3
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -111,21 +95,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-<<<<<<< HEAD
-    width: 1902
-    height: 930
+    width: 1920
+    height: 947
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 8096}
   vertical: 0
-  controlID: 86
-=======
-    width: 1536
-    height: 722.8
-  m_MinSize: {x: 400, y: 100}
-  m_MaxSize: {x: 32384, y: 8096}
-  vertical: 0
-  controlID: 106
->>>>>>> shirasaki
+  controlID: 153
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,13 +117,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-    y: 960
-    width: 1902
-=======
-    y: 752.8
-    width: 1536
->>>>>>> shirasaki
+    y: 977
+    width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -167,17 +137,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 755
+    x: 839
     y: 0
-    width: 216
-    height: 930
-=======
-    x: 564.8
-    y: 0
-    width: 216.79999
-    height: 722.8
->>>>>>> shirasaki
+    width: 237
+    height: 947
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 10}
@@ -200,17 +163,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 971
+    x: 1076
     y: 0
-    width: 213
-    height: 930
-=======
-    x: 781.6
-    y: 0
-    width: 376.80005
-    height: 722.8
->>>>>>> shirasaki
+    width: 412
+    height: 947
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 12}
@@ -233,17 +189,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 1184
+    x: 1488
     y: 0
-    width: 718
-    height: 930
-=======
-    x: 1158.4
-    y: 0
-    width: 377.59998
-    height: 722.8
->>>>>>> shirasaki
+    width: 432
+    height: 947
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 11}
@@ -268,13 +217,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 755
-    height: 930
-=======
-    width: 564.8
-    height: 722.8
->>>>>>> shirasaki
+    width: 839
+    height: 947
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
@@ -299,21 +243,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 780
-    y: 81
-    width: 214
-    height: 909
-=======
-    x: 564.8
-    y: 73.6
-    width: 214.79999
-    height: 701.8
->>>>>>> shirasaki
+    x: 841.4
+    y: -1007
+    width: 235
+    height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -323,11 +260,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-<<<<<<< HEAD
-      m_ExpandedIDs: fe4fffff2051ffff1c7bffff3a7cffff8a9effff32bcffff2ac3ffffc0f5ffff10faffff22fbffffe87d00004aa0000090a00000eaa00000e4b70000f6b7000042b90000f6b9000042f800001cfb0000
-=======
-      m_ExpandedIDs: 9a53ffffdc53ffff1c54ffff5c54ffff9c54ffffde54ffff1e55ffff6055ffff9c55ffffde55ffff2056ffff6056ffffa056ffffe056ffff2057ffffd457ffff5a61ffffde65ffffd266ffff3a67ffff7a67ffffba67ffff1668ffff5668ffffb468fffff468ffff3469ffff9069ffffd069ffff0a6affff806affffa06bffffde6dffffbe73ffff2e80ffffce80ffffe083ffff7084ffffba84ffff3c85ffff328bffffb08bffff2293ffffaa9dffff7ca4ffff18afffff12b0ffff6ab5ffff08d8ffffded8ffff32daffff56dbffffd2dbffff5edcffff0addffff7cddffffcaddffff18deffff4adeffff7adeffffacdeffffdcdeffff06dfffffa6dfffff86e0ffffd0e0ffff6ee1ffffc2e1ffff10e2ffff6ce2ffffb4e3ffff26e8ffff96e8ffffe2e8ffff2ee9ffff78e9ffffdce9ffff44eaffffaeeaffff2cebffff86ebffffe2ebffff42ecffffe0ecffff44f5ffffa8f9ffff22fbffffc05f0000448e00005a8e0000428f0000588f00001e90000094a1000014a40000e8a7000048a800008ca8000012ab000072ab0000e2ab000042ac000028af000088af0000d0b90000bac500000ccf0000c2cf000006d0000092d500009ad70000
->>>>>>> shirasaki
+      m_ExpandedIDs: 8eaeffff9aaefffff2afffff3ab8ffff3abbffff7ac1ffff74950000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -343,14 +276,14 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 7}
+        m_ClientGUIView: {fileID: 6}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 41df9d0b04eeb664c90586b7233c577d
+  m_WindowGUID: 6d8c47676c8906241a0c61304c4b7508
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -367,21 +300,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 1209
-    y: 81
-    width: 717
-    height: 909
-=======
-    x: 1158.4
-    y: 73.6
-    width: 376.59998
-    height: 701.8
->>>>>>> shirasaki
+    x: 1490.4
+    y: -1007
+    width: 431
+    height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -393,7 +319,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 74
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -415,21 +341,14 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 996
-    y: 81
-    width: 211
-    height: 909
-=======
-    x: 781.60004
-    y: 73.6
-    width: 374.80005
-    height: 701.8
->>>>>>> shirasaki
+    x: 1078.4
+    y: -1007
+    width: 410
+    height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -447,39 +366,33 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scripts/Alarm
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scripts/Alarm
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\y.shirasaki\Documents\A2-mikan-2
+  m_LastProjectPath: "C:\\Clone\u3057\u305F\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\clone4"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-    m_SelectedIDs: ba5f0000
-    m_LastClickedID: 24506
-    m_ExpandedIDs: 00000000905f0000ba5f000000ca9a3b
-=======
-    m_SelectedIDs: 5e5f0000
-    m_LastClickedID: 24414
-    m_ExpandedIDs: 00000000525f00005c5f0000605f000000ca9a3bffffff7f
->>>>>>> shirasaki
+    m_SelectedIDs: d6950000
+    m_LastClickedID: 38358
+    m_ExpandedIDs: 0000000002950000069500000e95000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Buttons
-      m_OriginalName: Buttons
+      m_Name: Scripts
+      m_OriginalName: Scripts
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 24410
+      m_UserData: 38158
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -496,11 +409,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000905f0000
-=======
-    m_ExpandedIDs: 00000000525f0000
->>>>>>> shirasaki
+    m_ExpandedIDs: 000000000295000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -527,8 +436,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: 
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -544,7 +453,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 7}
+      m_ClientGUIView: {fileID: 8}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -552,14 +461,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 300}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-<<<<<<< HEAD
-  m_DirectoriesAreaWidth: 117
-=======
-  m_DirectoriesAreaWidth: 200
->>>>>>> shirasaki
+  m_DirectoriesAreaWidth: 191
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -576,21 +481,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 25
-    y: 81
-    width: 754
-    height: 909
-=======
-    x: 0
-    y: 73.6
-    width: 563.8
-    height: 701.8
->>>>>>> shirasaki
+    x: 2.4
+    y: -1007
+    width: 838
+    height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -610,16 +508,16 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 07000000000000000000000012000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 07000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -320
-    m_HBaseRangeMax: 320
-    m_VBaseRangeMin: -512
-    m_VBaseRangeMax: 512
+    m_HBaseRangeMin: -400
+    m_HBaseRangeMax: 400
+    m_VBaseRangeMin: -640
+    m_VBaseRangeMax: 640
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -637,43 +535,26 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-<<<<<<< HEAD
-      width: 754
-      height: 888
-    m_Scale: {x: 0.69375, y: 0.69375}
-    m_Translation: {x: 377, y: 444}
-=======
-      width: 563.8
-      height: 680.8
-    m_Scale: {x: 0.66484374, y: 0.66484374}
-    m_Translation: {x: 281.9, y: 340.4}
->>>>>>> shirasaki
+      width: 838
+      height: 905
+    m_Scale: {x: 0.70703125, y: 0.70703125}
+    m_Translation: {x: 419, y: 452.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-<<<<<<< HEAD
-      x: -543.4234
+      x: -592.6188
       y: -640
-      width: 1086.8468
+      width: 1185.2375
       height: 1280
     m_MinimalGUI: 1
-  m_defaultScale: 0.69375
-  m_LastWindowPixelSize: {x: 754, y: 909}
-=======
-      x: -424.0094
-      y: -512
-      width: 848.0188
-      height: 1024
-    m_MinimalGUI: 1
-  m_defaultScale: 0.66484374
-  m_LastWindowPixelSize: {x: 704.75, y: 877.25}
->>>>>>> shirasaki
+  m_defaultScale: 0.70703125
+  m_LastWindowPixelSize: {x: 838, y: 926}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000001000000000000
+  m_LowResolutionForAspectRatios: 00000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
 --- !u!114 &14
@@ -692,21 +573,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 25
-    y: 81
-    width: 754
-    height: 909
-=======
-    x: 0
-    y: 73.6
-    width: 563.8
-    height: 701.8
->>>>>>> shirasaki
+    x: 2.4
+    y: -1007
+    width: 838
+    height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -920,7 +794,7 @@ MonoBehaviour:
       id: Scene View/Particles
       index: 10
       layout: 4
-  m_WindowGUID: 73dbd47bc1ed8fc429bec535b4a0e425
+  m_WindowGUID: 3e31b3b701a30794ea7ef04810be4a2f
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
@@ -930,15 +804,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
-    m_Target: {x: 363.92523, y: 732.0958, z: -4.362468}
+    m_Target: {x: 355.38147, y: 670.00995, z: -9.786392}
     speed: 2
-    m_Value: {x: 363.92523, y: 732.0958, z: -4.362468}
-=======
-    m_Target: {x: 427.36588, y: 654.78094, z: -1.937345}
-    speed: 2
-    m_Value: {x: 427.36588, y: 654.78094, z: -1.937345}
->>>>>>> shirasaki
+    m_Value: {x: 355.38147, y: 670.00995, z: -9.786392}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -955,7 +823,7 @@ MonoBehaviour:
     showImageEffects: 1
     showParticleSystems: 1
     showVisualEffectGraphs: 1
-    m_FxEnabled: 0
+    m_FxEnabled: 1
   m_Grid:
     xGrid:
       m_Fade:
@@ -972,16 +840,16 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
+      m_Size: {x: 0, y: 0}
     zGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
-    m_ShowGrid: 0
+    m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
@@ -989,15 +857,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-<<<<<<< HEAD
-    m_Target: 719.8566
+    m_Target: 755.2083
     speed: 2
-    m_Value: 719.8566
-=======
-    m_Target: 678.69006
-    speed: 2
-    m_Value: 678.69006
->>>>>>> shirasaki
+    m_Value: 755.2083
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1015,8 +877,8 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LastSceneViewOrtho: 1
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
