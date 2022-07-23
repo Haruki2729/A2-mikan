@@ -12,6 +12,9 @@ TagManager:
   - Hour1
   - HourOK
   - Hour10
+  - Miniute1
+  - Minute10
+  - MinuteOK
   layers:
   - Default
   - TransparentFX
