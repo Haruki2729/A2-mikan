@@ -3,30 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-<<<<<<< HEAD
-  - No1
-  - Apple
-  - Fish
-  - Chicken
-  - Cake
-  - Hour1
-  - HourOK
-  - Hour10
-  - Minute10
-  - MinuteOK
-  - Alarm
-  - Minute1
-=======
-  - Helpelement
-  - Esaelement
-  - test
-  - Esaelement2
-  - GiveApple
-  - CantToday
-  - LackApple
-  - GiveChicken
->>>>>>> kusune
+  tags: []
   layers:
   - Default
   - TransparentFX
