@@ -24,7 +24,6 @@ public class GiveChickenScript : MonoBehaviour
                 EvoScript.GiveChicken++;
                 FoodScript.Chicken--;
                 GiveAppleScript.TodayFood++;
-                EvoScript.GiveChicken++;
             }
             else
             {

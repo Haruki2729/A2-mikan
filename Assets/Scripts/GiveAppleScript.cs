@@ -33,7 +33,6 @@ public class GiveAppleScript : MonoBehaviour
                 EvoScript.GiveApple++;
                 FoodScript.Apple--;
                 TodayFood++;
-                EvoScript.GiveApple++;
             }
             else
             {
