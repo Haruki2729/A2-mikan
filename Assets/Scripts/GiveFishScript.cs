@@ -15,7 +15,7 @@ public class GiveFishScript : MonoBehaviour
     {
         if (FoodScript.Fish >= 1)
         {
-            if (GiveAppleScript.TodayFood <= 3)
+            if (GiveAppleScript.TodayFood <= GiveAppleScript.limit)
             {
                 GiveText.text = "‚¨‚³‚©‚È‚ð‚ ‚°‚½‚æI";
 

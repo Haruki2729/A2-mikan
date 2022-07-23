@@ -11,7 +11,8 @@ public class EvoScript : MonoBehaviour
     public static int GiveCake = 0;
 
     public int i;
-    public static int HomeNumber;
+    public static int HomeNumber = 0;
+    public static int NewHomeNumber;
 
 
     // Start is called before the first frame update
@@ -28,6 +29,27 @@ public class EvoScript : MonoBehaviour
             //ケーキ
             if (GiveCake >= GiveApple && GiveCake >= GiveChicken && GiveCake >= GiveFish)
             {
+                NewHomeNumber = 9 + i;
+                //進化先が進化元と重複した場合の処理
+                if (NewHomeNumber == HomeNumber)
+                {
+                    switch (i)
+                    {
+                        case 1:
+                            i = Random.Range(2, 4);
+                            break;
+                        case 2:
+                            i = Random.Range(1, 3);
+                            if (i == 2)
+                            {
+                                i++;
+                            }
+                            break;
+                        case 3:
+                            i = Random.Range(1, 3);
+                            break;
+                    }
+                }
                 SceneManager.LoadScene("HomeScene" + (9 + i));
                 HomeNumber = 9 + i;
                 GiveCake = 0;
@@ -39,6 +61,27 @@ public class EvoScript : MonoBehaviour
             //魚
             else if (GiveFish >= GiveChicken && GiveFish >= GiveApple)
             {
+                NewHomeNumber = 9 + i;
+                //進化先が進化元と重複した場合の処理
+                if (NewHomeNumber == HomeNumber)
+                {
+                    switch (i)
+                    {
+                        case 1:
+                            i = Random.Range(2, 4);
+                            break;
+                        case 2:
+                            i = Random.Range(1, 3);
+                            if (i == 2)
+                            {
+                                i++;
+                            }
+                            break;
+                        case 3:
+                            i = Random.Range(1, 3);
+                            break;
+                    }
+                }
                 SceneManager.LoadScene("HomeScene" + (6 + i));
                 HomeNumber = 6 + i;
                 GiveCake = 0;
@@ -50,6 +93,27 @@ public class EvoScript : MonoBehaviour
             //チキン
             else if (GiveChicken >= GiveApple)
             {
+                NewHomeNumber = 9 + i;
+                //進化先が進化元と重複した場合の処理
+                if (NewHomeNumber == HomeNumber)
+                {
+                    switch (i)
+                    {
+                        case 1:
+                            i = Random.Range(2, 4);
+                            break;
+                        case 2:
+                            i = Random.Range(1, 3);
+                            if (i == 2)
+                            {
+                                i++;
+                            }
+                            break;
+                        case 3:
+                            i = Random.Range(1, 3);
+                            break;
+                    }
+                }
                 SceneManager.LoadScene("HomeScene" + (3 + i));
                 HomeNumber = 3 + i;
                 GiveCake = 0;
@@ -61,6 +125,27 @@ public class EvoScript : MonoBehaviour
             //リンゴ
             else
             {
+                NewHomeNumber = 9 + i;
+                //進化先が進化元と重複した場合の処理
+                if (NewHomeNumber == HomeNumber)
+                {
+                    switch (i)
+                    {
+                        case 1:
+                            i = Random.Range(2, 4);
+                            break;
+                        case 2:
+                            i = Random.Range(1, 3);
+                            if (i == 2)
+                            {
+                                i++;
+                            }
+                            break;
+                        case 3:
+                            i = Random.Range(1, 3);
+                            break;
+                    }
+                }
                 SceneManager.LoadScene("HomeScene" + i);
                 HomeNumber = i;
                 GiveCake = 0;

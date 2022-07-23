@@ -15,7 +15,7 @@ public class GiveCakeScript : MonoBehaviour
     {
         if (FoodScript.Cake >= 1)
         {
-            if (GiveAppleScript.TodayFood <= 3)
+            if (GiveAppleScript.TodayFood <= GiveAppleScript.limit)
             {
                 GiveText.text = "ケーキをあげたよ！";
 
