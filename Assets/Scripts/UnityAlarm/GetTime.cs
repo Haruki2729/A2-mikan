@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GetTime : MonoBehaviour
 {
@@ -80,7 +81,8 @@ public class GetTime : MonoBehaviour
         if (SetTimeInt <= TimeNowInt)
         {
             Debug.Log("Ý’èŽžŠÔ‚É‚È‚Á‚½‚æ");
-           // GetComponent<AudioSource>().Play();
+            // GetComponent<AudioSource>().Play();
+            SceneManager.LoadScene("UnityAlarmScene2");
         }
     }
     
