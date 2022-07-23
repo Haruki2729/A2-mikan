@@ -11,7 +11,7 @@ public class HourManager : MonoBehaviour
 
     void Start()
     {
-        ClockText.text = SetHour.ToString("Žž");
+        ClockText.text = SetHour.ToString("00");
     }
 
     void update()

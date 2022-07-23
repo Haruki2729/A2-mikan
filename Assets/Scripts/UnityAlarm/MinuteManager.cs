@@ -11,7 +11,7 @@ public class MinuteManager : MonoBehaviour
 
     void Start()
     {
-        ClockText.text = SetMinute.ToString("•ª");
+        ClockText.text = SetMinute.ToString("00");
     }
 
     void update()

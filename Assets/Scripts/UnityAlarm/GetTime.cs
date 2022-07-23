@@ -31,7 +31,7 @@ public class GetTime : MonoBehaviour
         ClockText.text = DateTime.Now.ToLongTimeString();
         //Debug.Log("åªç›éû = " + DateTime.Now.Hour.ToString());
 
-        /*
+        
         //SecondNow = DateTime.Now.Second();
         //Debug.Log("SecondNow = " + SecondNow);
         // éÊìæÇ∑ÇÈíl: ïb
@@ -46,7 +46,7 @@ public class GetTime : MonoBehaviour
         SecondNowstr = SecondNowstr.PadLeft(2, '0');
         //Debug.Log("SecondNowstr = " + SecondNowstr);
 
-
+        
 
         TimeNowstr = HourNowstr + MinuteNowstr + SecondNowstr;
         Debug.Log("TimeNowstr = " + TimeNowstr);
@@ -58,11 +58,11 @@ public class GetTime : MonoBehaviour
         {
             ArarmCheck(TimeNowInt);
         }
-        */
+        
 
     }
 
-    /*
+    
     public static int getTimeNow()
     {
         return TimeNowInt;
@@ -80,9 +80,9 @@ public class GetTime : MonoBehaviour
         if (SetTimeInt <= TimeNowInt)
         {
             Debug.Log("ê›íËéûä‘Ç…Ç»Ç¡ÇΩÇÊ");
-            GetComponent<AudioSource>().Play();
+           // GetComponent<AudioSource>().Play();
         }
     }
-    */
+    
 
 }
