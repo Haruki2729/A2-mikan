@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - No1
+  - Apple
+  - Fish
+  - Chicken
+  - Cake
+  - Hour1
+  - HourOK
+  - Hour10
   layers:
   - Default
   - TransparentFX
