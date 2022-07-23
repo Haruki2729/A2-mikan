@@ -5,15 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Helpelement
-  - Apple
-  - Fish
-  - Cake
-  - Chicken
-<<<<<<< HEAD
-  - No1
-=======
   - Esaelement
->>>>>>> kakeru2
+  - test
+  - Esaelement2
+  - GiveApple
+  - CantToday
+  - LackApple
+  - GiveChicken
   layers:
   - Default
   - TransparentFX
@@ -48,12 +46,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: origin
-    uniqueID: 3151014445
-    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: New Layer 2
-    uniqueID: 4196360613
     locked: 0
