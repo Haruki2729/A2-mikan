@@ -9,6 +9,6 @@ public class HomeButtonScript : MonoBehaviour
     public void OnClickHomeButton()
     {
         // ホームシーンへ移動
-        SceneManager.LoadScene("HomeScene");
+        SceneManager.LoadScene("HomeScene" + EvoScript.HomeNumber.ToString());
     }
 }

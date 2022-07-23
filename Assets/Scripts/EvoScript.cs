@@ -30,6 +30,10 @@ public class EvoScript : MonoBehaviour
             {
                 SceneManager.LoadScene("HomeScene" + (9 + i));
                 HomeNumber = 9 + i;
+                GiveCake = 0;
+                GiveApple = 0;
+                GiveChicken = 0;
+                GiveFish = 0;
             }
 
             //‹›
@@ -37,6 +41,10 @@ public class EvoScript : MonoBehaviour
             {
                 SceneManager.LoadScene("HomeScene" + (6 + i));
                 HomeNumber = 6 + i;
+                GiveCake = 0;
+                GiveApple = 0;
+                GiveChicken = 0;
+                GiveFish = 0;
             }
 
             //ƒ`ƒLƒ“
@@ -44,6 +52,10 @@ public class EvoScript : MonoBehaviour
             {
                 SceneManager.LoadScene("HomeScene" + (3 + i));
                 HomeNumber = 3 + i;
+                GiveCake = 0;
+                GiveApple = 0;
+                GiveChicken = 0;
+                GiveFish = 0;
             }
 
             //ƒŠƒ“ƒS
@@ -51,6 +63,10 @@ public class EvoScript : MonoBehaviour
             {
                 SceneManager.LoadScene("HomeScene" + i);
                 HomeNumber = i;
+                GiveCake = 0;
+                GiveApple = 0;
+                GiveChicken = 0;
+                GiveFish = 0;
             }
         }
     }

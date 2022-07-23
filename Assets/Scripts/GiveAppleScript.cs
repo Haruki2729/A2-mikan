@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class GiveAppleScript : MonoBehaviour
 {
-    public static int TodayFood = 1; //¡“ú‚ ‚°‚½•ª‚Ì”
+    public static int TodayFood = 0; //¡“ú‚ ‚°‚½•ª‚Ì”
 
     public Text GiveText;
     public Text CantText;
