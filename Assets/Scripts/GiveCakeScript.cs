@@ -6,8 +6,9 @@ using UnityEngine.UI;
 public class GiveCakeScript : MonoBehaviour
 {
 
-    public Text LackCakeText;
-    public Text TodayFoodText;
+    public Text GiveText;
+    public Text CantText;
+    public Text LackText;
 
 
     public void OnClickGiveCakeButton()
@@ -16,6 +17,8 @@ public class GiveCakeScript : MonoBehaviour
         {
             if (GiveAppleScript.TodayFood <= 3)
             {
+                GiveText.text = "ケーキをあげたよ！";
+
                 EvoScript.GiveCake++;
                 FoodScript.Cake--;
                 GiveAppleScript.TodayFood++;
@@ -23,13 +26,13 @@ public class GiveCakeScript : MonoBehaviour
             }
             else
             {
-                TodayFoodText.text = "今日はもう餌を与えられません";
+                CantText.text = "今日はもう餌を与えられないよ";
                 StartCoroutine("TextSet");//コルーチンを実行
             }
         }
         else
         {
-            LackCakeText.text = "ケーキが足りません";
+            LackText.text = "ケーキが足りないよ";
             StartCoroutine("TextSet");//コルーチンを実行
         }
     }
@@ -37,7 +40,8 @@ public class GiveCakeScript : MonoBehaviour
     IEnumerator TextSet()
     {
         yield return new WaitForSeconds(1.0f);
-        LackCakeText.text = "";
-        TodayFoodText.text = "";
+        GiveText.text = "";
+        CantText.text = "";
+        LackText.text = "";
     }
 }

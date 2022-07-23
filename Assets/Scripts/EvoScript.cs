@@ -21,4 +21,24 @@ public class EvoScript : MonoBehaviour
     {
 
     }
+
+    public static int returnGiveApple()
+    {
+        return GiveApple;
+    }
+
+    public static int returnGiveChicken()
+    {
+        return GiveChicken;
+    }
+
+    public static int returnGiveFish()
+    {
+        return GiveFish;
+    }
+
+    public static int returnGiveCake()
+    {
+        return GiveCake;
+    }
 }

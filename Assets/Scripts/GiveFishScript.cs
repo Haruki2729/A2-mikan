@@ -6,8 +6,9 @@ using UnityEngine.UI;
 public class GiveFishScript : MonoBehaviour
 {
 
-    public Text LackFishText;
-    public Text TodayFoodText;
+    public Text GiveText;
+    public Text CantText;
+    public Text LackText;
 
 
     public void OnClickGiveFishButton()
@@ -16,6 +17,8 @@ public class GiveFishScript : MonoBehaviour
         {
             if (GiveAppleScript.TodayFood <= 3)
             {
+                GiveText.text = "おさかなをあげたよ！";
+
                 EvoScript.GiveFish++;
                 FoodScript.Fish--;
                 GiveAppleScript.TodayFood++;
@@ -23,13 +26,13 @@ public class GiveFishScript : MonoBehaviour
             }
             else
             {
-                TodayFoodText.text = "今日はもう餌を与えられません";
+                CantText.text = "今日はもう餌を与えられないよ";
                 StartCoroutine("TextSet");//コルーチンを実行
             }
         }
         else
         {
-            LackFishText.text = "おさかなが足りません";
+            LackText.text = "おさかなが足りないよ";
             StartCoroutine("TextSet");//コルーチンを実行
         }
     }
@@ -37,7 +40,8 @@ public class GiveFishScript : MonoBehaviour
     IEnumerator TextSet()
     {
         yield return new WaitForSeconds(1.0f);
-        LackFishText.text = "";
-        TodayFoodText.text = "";
+        GiveText.text = "";
+        CantText.text = "";
+        LackText.text = "";
     }
 }

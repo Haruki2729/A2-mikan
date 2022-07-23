@@ -4,6 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - No1
   - Apple
   - Fish
@@ -16,6 +17,16 @@ TagManager:
   - MinuteOK
   - Alarm
   - Minute1
+=======
+  - Helpelement
+  - Esaelement
+  - test
+  - Esaelement2
+  - GiveApple
+  - CantToday
+  - LackApple
+  - GiveChicken
+>>>>>>> kusune
   layers:
   - Default
   - TransparentFX
