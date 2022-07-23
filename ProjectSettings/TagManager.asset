@@ -3,9 +3,6 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-<<<<<<< HEAD
-  tags: []
-=======
   tags:
   - Helpelement
   - Esaelement
@@ -33,7 +30,13 @@ TagManager:
   - No7
   - No8
   - No9
->>>>>>> kusune
+  - No10
+  - No11
+  - No12
+  - number10
+  - number11
+  - number12
+  - number13
   layers:
   - Default
   - TransparentFX
