@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 142396094}
   m_Layer: 0
   m_Name: Minute10SetButton
-  m_TagString: HourOK
+  m_TagString: MinuteOK
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -891,7 +891,7 @@ GameObject:
   - component: {fileID: 290987939}
   m_Layer: 5
   m_Name: Minute10Button 4
-  m_TagString: Hour1
+  m_TagString: Minute10
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1602,7 +1602,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -155, y: 142}
+  m_AnchoredPosition: {x: -159, y: 323}
   m_SizeDelta: {x: 196.896, y: 99.9079}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &482231538
@@ -1885,7 +1885,7 @@ GameObject:
   - component: {fileID: 571168053}
   m_Layer: 5
   m_Name: Minute1Button 7
-  m_TagString: Hour1
+  m_TagString: Miniute1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2190,7 +2190,7 @@ GameObject:
   - component: {fileID: 598475072}
   m_Layer: 5
   m_Name: Minute1Button 0
-  m_TagString: Hour1
+  m_TagString: Miniute1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2521,7 +2521,7 @@ GameObject:
   - component: {fileID: 627711612}
   m_Layer: 5
   m_Name: Minute10Button 5
-  m_TagString: Hour1
+  m_TagString: Minute10
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2668,7 +2668,7 @@ GameObject:
   - component: {fileID: 687309465}
   m_Layer: 5
   m_Name: Minute1Button 6
-  m_TagString: Hour1
+  m_TagString: Miniute1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3029,7 +3029,7 @@ GameObject:
   - component: {fileID: 788640378}
   m_Layer: 5
   m_Name: Minute10Button 3
-  m_TagString: Hour1
+  m_TagString: Minute10
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3176,7 +3176,7 @@ GameObject:
   - component: {fileID: 800929233}
   m_Layer: 5
   m_Name: Minute10Button 1
-  m_TagString: Hour10
+  m_TagString: Minute10
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3574,7 +3574,7 @@ GameObject:
   - component: {fileID: 924596924}
   m_Layer: 5
   m_Name: Minute1Button 4
-  m_TagString: Hour1
+  m_TagString: Miniute1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3743,7 +3743,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -155, y: 142}
+  m_AnchoredPosition: {x: 99, y: 319}
   m_SizeDelta: {x: 196.896, y: 99.9079}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &929235126
@@ -3987,7 +3987,7 @@ GameObject:
   - component: {fileID: 1003351655}
   m_Layer: 5
   m_Name: Minute10Button 0
-  m_TagString: Hour10
+  m_TagString: Minute10
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4591,7 +4591,7 @@ GameObject:
   - component: {fileID: 1217675672}
   m_Layer: 5
   m_Name: Minute1Button 8
-  m_TagString: Hour1
+  m_TagString: Miniute1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4738,7 +4738,7 @@ GameObject:
   - component: {fileID: 1230534094}
   m_Layer: 5
   m_Name: Minute1Button 9
-  m_TagString: Hour1
+  m_TagString: Miniute1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5072,7 +5072,7 @@ GameObject:
   - component: {fileID: 1330029405}
   m_Layer: 5
   m_Name: Minute1Button 3
-  m_TagString: Hour1
+  m_TagString: Miniute1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5649,7 +5649,7 @@ GameObject:
   - component: {fileID: 1502233093}
   m_Layer: 5
   m_Name: Minute1SetButton
-  m_TagString: HourOK
+  m_TagString: MinuteOK
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6230,7 +6230,7 @@ GameObject:
   - component: {fileID: 1538347836}
   m_Layer: 5
   m_Name: Minute1Button 2
-  m_TagString: Hour1
+  m_TagString: Miniute1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6524,7 +6524,7 @@ GameObject:
   - component: {fileID: 1567520862}
   m_Layer: 5
   m_Name: Minute1Button 5
-  m_TagString: Hour1
+  m_TagString: Miniute1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6820,7 +6820,7 @@ GameObject:
   - component: {fileID: 1741326603}
   m_Layer: 5
   m_Name: Minute10Button 2
-  m_TagString: Hour10
+  m_TagString: Minute10
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7389,7 +7389,7 @@ GameObject:
   - component: {fileID: 1966296230}
   m_Layer: 5
   m_Name: Minute1Button 1
-  m_TagString: Hour1
+  m_TagString: Miniute1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

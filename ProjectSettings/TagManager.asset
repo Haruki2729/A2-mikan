@@ -13,9 +13,15 @@ TagManager:
   - Hour1
   - HourOK
   - Hour10
+<<<<<<< HEAD
 =======
   - Alarm
 >>>>>>> yamazaki(1)
+=======
+  - Miniute1
+  - Minute10
+  - MinuteOK
+>>>>>>> shirasaki
   layers:
   - Default
   - TransparentFX
