@@ -3,20 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class SwitchMission : MonoBehaviour
 {
-    /*
-    Random r = new Random();
-    //0以上のランダムな値
-    int randomValue = r.Next(1) + 1;
-    static int randomValueSta = randomValue;
-    
+    int randomValue1;
 
-    public void AlarmStart()
+    void Start()
     {
-        
+        //0以上のランダムな値
+        randomValue1 = Random.Range(1, 3);
+        Debug.Log(randomValue1);
 
-        switch (randomValueSta)
+        switch (randomValue1)
         {
             case 1:
                 SceneManager.LoadScene("Mission1Scene");
@@ -24,7 +22,11 @@ public class SwitchMission : MonoBehaviour
             case 2:
                 SceneManager.LoadScene("Mission2Scene");
                 break;
+            case 3:
+                Debug.Log("3やで");
+                break;
         }
+
     }
-    */
+
 }
