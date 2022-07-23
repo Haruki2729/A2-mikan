@@ -4,20 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-<<<<<<< HEAD
-  - No1
-  - Apple
-  - Fish
-  - Chicken
-  - Cake
-  - Hour1
-  - HourOK
-  - Hour10
-  - Minute10
-  - MinuteOK
-  - Alarm
-  - Minute1
-=======
   - Helpelement
   - Esaelement
   - test
@@ -26,7 +12,24 @@ TagManager:
   - CantToday
   - LackApple
   - GiveChicken
->>>>>>> kusune
+  - No1
+  - number0
+  - number2
+  - number3
+  - number4
+  - number5
+  - number6
+  - number7
+  - number8
+  - number9
+  - No2
+  - No3
+  - No4
+  - No5
+  - No6
+  - No7
+  - No8
+  - No9
   layers:
   - Default
   - TransparentFX
