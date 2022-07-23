@@ -3,7 +3,37 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< HEAD
   tags: []
+=======
+  tags:
+  - Helpelement
+  - Esaelement
+  - test
+  - Esaelement2
+  - GiveApple
+  - CantToday
+  - LackApple
+  - GiveChicken
+  - No1
+  - number0
+  - number2
+  - number3
+  - number4
+  - number5
+  - number6
+  - number7
+  - number8
+  - number9
+  - No2
+  - No3
+  - No4
+  - No5
+  - No6
+  - No7
+  - No8
+  - No9
+>>>>>>> kusune
   layers:
   - Default
   - TransparentFX
