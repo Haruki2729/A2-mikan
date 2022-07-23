@@ -173,28 +173,40 @@ public class EvoScript : MonoBehaviour
         {
             case 1:
                 No1 = 1;
+                break;
             case 2:
                 No2 = 1;
+                break;
             case 3:
                 No3 = 1;
+                break;
             case 4:
                 No4 = 1;
+                break;
             case 5:
                 No5 = 1;
+                break;
             case 6:
                 No6 = 1;
+                break;
             case 7:
                 No7 = 1;
+                break;
             case 8:
                 No8 = 1;
+                break;
             case 9:
                 No9 = 1;
+                break;
             case 10:
                 No10 = 1;
+                break;
             case 11:
                 No11 = 1;
+                break;
             case 12:
                 No12 = 1;
+                break;
         }
     }
 
