@@ -10,6 +10,19 @@ public class EvoScript : MonoBehaviour
     public static int GiveFish = 0;
     public static int GiveCake = 0;
 
+    public static int No1 = 0;
+    public static int No2 = 0;
+    public static int No3 = 0;
+    public static int No4 = 0;
+    public static int No5 = 0;
+    public static int No6 = 0;
+    public static int No7 = 0;
+    public static int No8 = 0;
+    public static int No9 = 0;
+    public static int No10 = 0;
+    public static int No11 = 0;
+    public static int No12 = 0;
+
     public int i;
     public static int HomeNumber = 0;
     public static int NewHomeNumber;
@@ -61,7 +74,7 @@ public class EvoScript : MonoBehaviour
             //魚
             else if (GiveFish >= GiveChicken && GiveFish >= GiveApple)
             {
-                NewHomeNumber = 9 + i;
+                NewHomeNumber = 6 + i;
                 //進化先が進化元と重複した場合の処理
                 if (NewHomeNumber == HomeNumber)
                 {
@@ -93,7 +106,7 @@ public class EvoScript : MonoBehaviour
             //チキン
             else if (GiveChicken >= GiveApple)
             {
-                NewHomeNumber = 9 + i;
+                NewHomeNumber = 3 + i;
                 //進化先が進化元と重複した場合の処理
                 if (NewHomeNumber == HomeNumber)
                 {
@@ -125,7 +138,7 @@ public class EvoScript : MonoBehaviour
             //リンゴ
             else
             {
-                NewHomeNumber = 9 + i;
+                NewHomeNumber = i;
                 //進化先が進化元と重複した場合の処理
                 if (NewHomeNumber == HomeNumber)
                 {
@@ -153,6 +166,35 @@ public class EvoScript : MonoBehaviour
                 GiveChicken = 0;
                 GiveFish = 0;
             }
+        }
+
+        //図鑑開放のための処理
+        switch (HomeNumber)
+        {
+            case 1:
+                No1 = 1;
+            case 2:
+                No2 = 1;
+            case 3:
+                No3 = 1;
+            case 4:
+                No4 = 1;
+            case 5:
+                No5 = 1;
+            case 6:
+                No6 = 1;
+            case 7:
+                No7 = 1;
+            case 8:
+                No8 = 1;
+            case 9:
+                No9 = 1;
+            case 10:
+                No10 = 1;
+            case 11:
+                No11 = 1;
+            case 12:
+                No12 = 1;
         }
     }
 
