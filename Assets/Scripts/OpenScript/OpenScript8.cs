@@ -15,7 +15,7 @@ public class OpenScript8 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (h == 1)
+        if (EvoScript.No7 == 1)
         {
             GameObject[] objects = GameObject.FindGameObjectsWithTag("number8");
 

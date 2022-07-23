@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class OpenScript9 : MonoBehaviour
 {
-    public static int iii = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -15,7 +14,7 @@ public class OpenScript9 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (iii == 1)
+        if (EvoScript.No8 == 1)
         {
             GameObject[] objects = GameObject.FindGameObjectsWithTag("number9");
 
