@@ -37,6 +37,7 @@ TagManager:
   - number11
   - number12
   - number13
+  - EvoPop
   layers:
   - Default
   - TransparentFX
