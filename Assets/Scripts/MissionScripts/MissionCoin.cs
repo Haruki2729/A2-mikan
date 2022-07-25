@@ -9,7 +9,7 @@ public class MissionCoin : MonoBehaviour
     public void OnClickHomeButton()
     {
         // ホームシーンへ移動
-        SceneManager.LoadScene("HomeScene");
+        SceneManager.LoadScene("HomeScene" + EvoScript.HomeNumber.ToString());
         CoinScript.coin += 100;
     }
 }
