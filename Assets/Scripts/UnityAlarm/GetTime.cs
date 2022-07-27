@@ -1,4 +1,4 @@
-using System;
+//using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class GetTime : MonoBehaviour
 {
+    int randomValue2;
 
     public TextMeshProUGUI ClockText;
     public string HourNowstr;
@@ -29,7 +30,7 @@ public class GetTime : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ClockText.text = DateTime.Now.ToLongTimeString();
+        ClockText.text = System.DateTime.Now.ToLongTimeString();
         //Debug.Log("åªç›éû = " + DateTime.Now.Hour.ToString());
 
         
@@ -52,8 +53,8 @@ public class GetTime : MonoBehaviour
         TimeNowstr = HourNowstr + MinuteNowstr + SecondNowstr;
         Debug.Log("TimeNowstr = " + TimeNowstr);
 
-        TimeNowInt = Int32.Parse(TimeNowstr);
-        SecondNowInt = Int32.Parse(SecondNowstr);
+        TimeNowInt = System.Int32.Parse(TimeNowstr);
+        SecondNowInt = System.Int32.Parse(SecondNowstr);
 
         if (SecondNowInt == 0)
         {
@@ -78,11 +79,28 @@ public class GetTime : MonoBehaviour
     {
         int SetTimeInt = TimeManager.getSetTime();
 
-        if (SetTimeInt <= TimeNowInt)
+        if (SetTimeInt == TimeNowInt)
         {
             Debug.Log("ê›íËéûä‘Ç…Ç»Ç¡ÇΩÇÊ");
             // GetComponent<AudioSource>().Play();
-            SceneManager.LoadScene("UnityAlarmScene2");
+            //SceneManager.LoadScene("UnityAlarmScene2");
+
+            //0à»è„ÇÃÉâÉìÉ_ÉÄÇ»íl
+            randomValue2 = Random.Range(1, 3);
+            Debug.Log(randomValue2);
+
+                switch (randomValue2)
+                {
+                    case 1:
+                        SceneManager.LoadScene("Mission1Scene");
+                        break;
+                    case 2:
+                        SceneManager.LoadScene("Mission2Scene");
+                        break;
+                    case 3:
+                        Debug.Log("3Ç‚Ç≈");
+                        break;
+                }
         }
     }
     
