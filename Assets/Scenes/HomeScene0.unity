@@ -5965,7 +5965,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1254843111}
-  - component: {fileID: 1254843110}
+  - component: {fileID: 1254843112}
   m_Layer: 0
   m_Name: DateManager
   m_TagString: Untagged
@@ -5973,19 +5973,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1254843110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1254843109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79d0cf86283459d4c986035778adba39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DateText: {fileID: 1005163797}
 --- !u!4 &1254843111
 Transform:
   m_ObjectHideFlags: 0
@@ -6001,6 +5988,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1254843112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254843109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79d0cf86283459d4c986035778adba39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DateText: {fileID: 1005163797}
 --- !u!1 &1287222515
 GameObject:
   m_ObjectHideFlags: 0
