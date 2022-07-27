@@ -5,26 +5,26 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using TMPro;
 
-public class MinuteScroll : MonoBehaviour, IEndDragHandler
+public class Hour10Scroll : MonoBehaviour, IEndDragHandler
 {
     // 定数
-    public float PICKER_H_NUM = 10; // 数値ピッカーの要素数
+    public float PICKER_H_NUM = 3; // 数値ピッカーの要素数
     private float DEFAULT_POSITION = 0.5f;    // スクロールの定位置
-    public int MAX_M_NUM = 9;    // ピッカーの数値の最大値
-    float max = 9f; //要素数-1
+    public int MAX_H_NUM = 2;    // ピッカーの数値の最大値
+    float max = 2f; //要素数-1
 
     // オブジェクト参照
     public GameObject Viewport; // 数値ピッカーの数値要素の親オブジェクト
 
     // メンバ変数
-    public int currentMNum = 0; // 現在の数値ピッカーの値
-    private int centerMNum;  // 数値ピッカーの中で中央に来るオブジェクトの順番。PICKER_NUM / 2 を四捨五入した値
+    public int currentH10Num = 0; // 現在の数値ピッカーの値
+    private int centerHNum;  // 数値ピッカーの中で中央に来るオブジェクトの順番。PICKER_NUM / 2 を四捨五入した値
 
     // Start is called before the first frame update
     void Start()
     {
         this.GetComponent<ScrollRect>().verticalNormalizedPosition = DEFAULT_POSITION;
-        centerMNum = Mathf.RoundToInt(PICKER_H_NUM / 2);
+        centerHNum = Mathf.RoundToInt(PICKER_H_NUM / 2);
     }
 
     // ドラッグ終了時
@@ -36,7 +36,7 @@ public class MinuteScroll : MonoBehaviour, IEndDragHandler
         int num = Mathf.RoundToInt(max - max * pos);
 
         // 数値ピッカーを移動後の状態に更新する
-        //UpdatePickerNum(currentMNum + move);
+        //UpdatePickerNum(currentH10Num + move);
         UpdatePickerNum(num);
 
     }
@@ -45,14 +45,14 @@ public class MinuteScroll : MonoBehaviour, IEndDragHandler
     public void UpdatePickerNum(int value)
     {
 
-        currentMNum = AdjustNumber(value);
-        Debug.Log(currentMNum);
+        currentH10Num = AdjustNumber(value);
+        Debug.Log(currentH10Num);
 
         // 移動後の値に各要素のtextを書き換える
         for (int i = 0; i < PICKER_H_NUM; i++)
         {
             Viewport.transform.GetChild(i).gameObject.GetComponent<TextMeshPro>().text =
-                    AdjustNumber(currentMNum + i + 1 - centerMNum).ToString();
+                    AdjustNumber(currentH10Num + i + 1 - centerHNum).ToString();
         }
         // スクロール位置を初期位置に戻す
         this.GetComponent<ScrollRect>().verticalNormalizedPosition = DEFAULT_POSITION;
@@ -62,13 +62,13 @@ public class MinuteScroll : MonoBehaviour, IEndDragHandler
     // 各要素に設定する数値を範囲内に収める
     private int AdjustNumber(int num)
     {
-        while (num > MAX_M_NUM)
+        while (num > MAX_H_NUM)
         {
-            num -= (MAX_M_NUM + 1);
+            num -= (MAX_H_NUM + 1);
         }
         while (num < 0)
         {
-            num += (MAX_M_NUM + 1);
+            num += (MAX_H_NUM + 1);
         }
         return num;
     }
