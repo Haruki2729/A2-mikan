@@ -16,6 +16,9 @@ public class SoundScript : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
+		BGM_home.Stop();
+
+
 		//自分と各BGMオブジェクトをシーン切り替え時も破棄しないようにする
 		DontDestroyOnLoad(gameObject);
 		DontDestroyOnLoad(BGM_home.gameObject);
@@ -35,17 +38,17 @@ public class SoundScript : MonoBehaviour
 			|| beforeScene == "MissionClearScene2" && nextScene.name == "HomeScene" + EvoScript.HomeNumber.ToString()
 			|| beforeScene == "MissionFailureScene" && nextScene.name == "HomeScene" + EvoScript.HomeNumber.ToString())
 		{
+			//BGM_home.Play();
 			BGM_alarm.Stop();
-			BGM_home.Play();
 		}
 
 		//シーンがどう変わったかで判定
 
 		//メニューからメインへ
 		if (beforeScene == "UnityAlarmScene" && nextScene.name == "Mission1Scene"
-			|| beforeScene == "UnityAlarmScene" && nextScene.name == "Mission2Scene")
+			|| beforeScene == "UnityAlarmScene2" && nextScene.name == "Mission2Scene")
 		{
-			BGM_home.Stop();
+			//BGM_home.Stop();
 			BGM_alarm.Play();
 		}
 
