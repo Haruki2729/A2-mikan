@@ -33,12 +33,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Mission2Scene.unity
     guid: 394786523aa5d4c479b138da56433e0a
   - enabled: 1
-<<<<<<< HEAD
-=======
-    path: Assets/Scenes/MissionClearScene2.unity
-    guid: 22c01e966a9c5c34b870175be58fc59c
-  - enabled: 1
->>>>>>> kakeru2
     path: Assets/Scenes/UnityAlarmScene2.unity
     guid: 59a140ccdcbec7c4189113c41cae1495
   - enabled: 1
@@ -71,10 +65,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HomeScene10.unity
     guid: 4c21f748f71b7cf4fa1a62d1b71713f5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/HomeScene12.unity
     guid: 7d9754611c8e1a2468d0829d9b10eaef
   - enabled: 1
     path: Assets/Scenes/HomeScene11.unity
     guid: aa20921746705614ba90cfdedadc3e01
+  - enabled: 1
+    path: Assets/Scenes/UnityAlarmScene.unity
+    guid: 6ff883f7f16b3ce439e554daf3c13771
+  - enabled: 1
+    path: Assets/Scenes/MissionClearScene2.unity
+    guid: 22c01e966a9c5c34b870175be58fc59c
   m_configObjects: {}
