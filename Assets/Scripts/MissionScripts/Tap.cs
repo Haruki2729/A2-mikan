@@ -25,7 +25,7 @@ public class Tap : MonoBehaviour
             TapCount = 0;
             TapTextL.text = ("Clear");
             Debug.Log("Clear");
-            SceneManager.LoadScene("MissionClearScene");
+            SceneManager.LoadScene("MissionClearScene2");
         }
         
     }
