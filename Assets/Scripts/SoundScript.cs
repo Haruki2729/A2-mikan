@@ -1,39 +1,33 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement; //必要です！！
+using UnityEngine.SceneManagement;
 
 public class SoundScript : MonoBehaviour
 {
-
-	//ヒエラルキーからD&Dしておく
 	public AudioSource BGM_home;
 	public AudioSource BGM_alarm;
 
 	//１つ前のシーン名
 	private string beforeScene = "UnityAlarmScene";
 
-	// Use this for initialization
 	void Start()
 	{
 		BGM_home.Stop();
 
 
-		//自分と各BGMオブジェクトをシーン切り替え時も破棄しないようにする
 		DontDestroyOnLoad(gameObject);
 		DontDestroyOnLoad(BGM_home.gameObject);
 		DontDestroyOnLoad(BGM_alarm.gameObject);
 
-		//シーンが切り替わった時に呼ばれるメソッドを登録
 		SceneManager.activeSceneChanged += OnActiveSceneChanged;
 	}
 
-	//シーンが切り替わった時に呼ばれるメソッド
 	void OnActiveSceneChanged(Scene prevScene, Scene nextScene)
 	{
 		
 
-		//メインからメニューへUnityAlarmScene
+		//ミッションクリア・失敗からホームシーンへ
 		if (beforeScene == "MissionClearScene" && nextScene.name == "HomeScene" + EvoScript.HomeNumber.ToString() 
 			|| beforeScene == "MissionClearScene2" && nextScene.name == "HomeScene" + EvoScript.HomeNumber.ToString()
 			|| beforeScene == "MissionFailureScene" && nextScene.name == "HomeScene" + EvoScript.HomeNumber.ToString())
@@ -44,7 +38,7 @@ public class SoundScript : MonoBehaviour
 
 		//シーンがどう変わったかで判定
 
-		//メニューからメインへ
+		//アラームシーンからミッションシーンへ
 		if (beforeScene == "UnityAlarmScene" && nextScene.name == "Mission1Scene"
 			|| beforeScene == "UnityAlarmScene2" && nextScene.name == "Mission2Scene")
 		{
