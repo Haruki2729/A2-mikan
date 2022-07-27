@@ -11,7 +11,7 @@ public class TimeLimit2 : MonoBehaviour
 	public TextMeshProUGUI TimerText;
 
 	public float totalTime;
-	int seconds;
+	public static int seconds;
 	int End = 0;
 
 	// Use this for initialization
