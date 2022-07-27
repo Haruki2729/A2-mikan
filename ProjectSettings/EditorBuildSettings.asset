@@ -33,7 +33,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Mission2Scene.unity
     guid: 394786523aa5d4c479b138da56433e0a
   - enabled: 1
-    path: Assets/Scenes/UnityAlarmScene 2.unity
+    path: Assets/Scenes/UnityAlarmScene2.unity
     guid: 59a140ccdcbec7c4189113c41cae1495
   - enabled: 1
     path: Assets/Scenes/HomeScene1.unity
