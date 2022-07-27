@@ -10,6 +10,12 @@ public class SwitchMission : MonoBehaviour
 
     void Start()
     {
+        
+
+    }
+
+    void update()
+    {
         //0ˆÈã‚Ìƒ‰ƒ“ƒ_ƒ€‚È’l
         randomValue1 = Random.Range(1, 3);
         Debug.Log(randomValue1);
@@ -26,7 +32,6 @@ public class SwitchMission : MonoBehaviour
                 Debug.Log("3‚â‚Å");
                 break;
         }
-
     }
 
 }
