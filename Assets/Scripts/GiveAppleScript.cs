@@ -7,7 +7,7 @@ using TMPro;
 public class GiveAppleScript : MonoBehaviour
 {
     public static int TodayFood = 1; //¡“ú‚ ‚°‚½•ª‚Ì”
-    public static int limit = 30; //1“ú‚É‚ ‚°‚ç‚ê‚é‰a‚ÌÅ‘å—Ê
+    public static int limit = 3; //1“ú‚É‚ ‚°‚ç‚ê‚é‰a‚ÌÅ‘å—Ê
 
     public Text GiveText;
     public Text CantText;
