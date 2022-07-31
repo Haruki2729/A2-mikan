@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class GiveCakeScript : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class GiveCakeScript : MonoBehaviour
     public Text CantText;
     public Text LackText;
 
+    public TextMeshProUGUI EatCakeText;
 
     public void OnClickGiveCakeButton()
     {
@@ -22,6 +24,7 @@ public class GiveCakeScript : MonoBehaviour
                 EvoScript.GiveCake++;
                 FoodScript.Cake--;
                 GiveAppleScript.TodayFood++;
+                EatCakeText.text = EvoScript.GiveCake.ToString();
             }
             else
             {
