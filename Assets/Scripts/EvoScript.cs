@@ -63,7 +63,7 @@ public class EvoScript : MonoBehaviour
                             break;
                     }
                 }
-                SceneManager.LoadScene("HomeScene" + (9 + i));
+                SceneManager.LoadScene("EvoScene" + (9 + i));
                 HomeNumber = 9 + i;
                 GiveCake = 0;
                 GiveApple = 0;
@@ -95,7 +95,7 @@ public class EvoScript : MonoBehaviour
                             break;
                     }
                 }
-                SceneManager.LoadScene("HomeScene" + (6 + i));
+                SceneManager.LoadScene("EvoScene" + (6 + i));
                 HomeNumber = 6 + i;
                 GiveCake = 0;
                 GiveApple = 0;
@@ -127,7 +127,7 @@ public class EvoScript : MonoBehaviour
                             break;
                     }
                 }
-                SceneManager.LoadScene("HomeScene" + (3 + i));
+                SceneManager.LoadScene("EvoScene" + (3 + i));
                 HomeNumber = 3 + i;
                 GiveCake = 0;
                 GiveApple = 0;
@@ -159,7 +159,7 @@ public class EvoScript : MonoBehaviour
                             break;
                     }
                 }
-                SceneManager.LoadScene("HomeScene" + i);
+                SceneManager.LoadScene("EvoScene" + i);
                 HomeNumber = i;
                 GiveCake = 0;
                 GiveApple = 0;

@@ -68,6 +68,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HomeScene11.unity
     guid: de6197c5ca7f32843a31f3cd2d0df142
+  - enabled: 1
+    path: Assets/Scenes/EvoScene1.unity
+    guid: 52ffa61d1e9969645af741a844f55471
+  - enabled: 1
+    path: Assets/Scenes/EvoScene3.unity
+    guid: b82957ba7909a7746bfe918b98e944c7
+  - enabled: 1
+    path: Assets/Scenes/EvoScene2.unity
+    guid: 100058e3366a89043bfe5d391610194c
+  - enabled: 1
+    path: Assets/Scenes/EvoScene10.unity
+    guid: 35c75201ef1332946b76132ddbf67807
+  - enabled: 1
+    path: Assets/Scenes/EvoScene12.unity
+    guid: ab872230e1d75364f94ab85e796d4949
+  - enabled: 1
+    path: Assets/Scenes/EvoScene11.unity
+    guid: 90c224a0faa9adc4abd0534657553773
   - enabled: 0
     path: 
     guid: 7d9754611c8e1a2468d0829d9b10eaef
