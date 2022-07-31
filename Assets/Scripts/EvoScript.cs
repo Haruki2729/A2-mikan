@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class EvoScript : MonoBehaviour
 {
@@ -27,7 +28,6 @@ public class EvoScript : MonoBehaviour
     public static int HomeNumber = 0;
     public static int NewHomeNumber;
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -37,7 +37,7 @@ public class EvoScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GiveApple + GiveCake + GiveChicken + GiveFish == 2)
+        if (GiveApple + GiveCake + GiveChicken + GiveFish == 10)
         {
             //ƒP[ƒL
             if (GiveCake >= GiveApple && GiveCake >= GiveChicken && GiveCake >= GiveFish)

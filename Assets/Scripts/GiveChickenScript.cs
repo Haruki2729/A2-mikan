@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class GiveChickenScript : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class GiveChickenScript : MonoBehaviour
     public Text CantText;
     public Text LackText;
 
+    public TextMeshProUGUI EatChickenText;
 
     public void OnClickGiveChickenButton()
     {
@@ -24,6 +26,7 @@ public class GiveChickenScript : MonoBehaviour
                 EvoScript.GiveChicken++;
                 FoodScript.Chicken--;
                 GiveAppleScript.TodayFood++;
+                EatChickenText.text = EvoScript.GiveChicken.ToString();
             }
             else
             {
