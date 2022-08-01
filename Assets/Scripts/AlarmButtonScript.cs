@@ -9,6 +9,6 @@ public class AlarmButtonScript: MonoBehaviour
     public void OnClickAlarmButton()
     {
         // アラームシーンへ移動
-        SceneManager.LoadScene("AlarmScene");
+        SceneManager.LoadScene("UnityAlarmScene");
     }
 }

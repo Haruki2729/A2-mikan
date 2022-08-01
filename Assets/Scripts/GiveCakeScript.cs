@@ -20,6 +20,7 @@ public class GiveCakeScript : MonoBehaviour
             if (GiveAppleScript.TodayFood <= GiveAppleScript.limit)
             {
                 GiveText.text = "ケーキをあげたよ！";
+                StartCoroutine("TextSet");//コルーチンを実行
 
                 EvoScript.GiveCake++;
                 FoodScript.Cake--;
