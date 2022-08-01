@@ -24,7 +24,6 @@ public class GiveCakeScript : MonoBehaviour
                 EvoScript.GiveCake++;
                 FoodScript.Cake--;
                 GiveAppleScript.TodayFood++;
-                EatCakeText.text = EvoScript.GiveCake.ToString();
             }
             else
             {
