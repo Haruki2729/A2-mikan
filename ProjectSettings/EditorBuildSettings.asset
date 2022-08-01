@@ -5,36 +5,27 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/MissionFailureScene.unity
-    guid: af17263c7f1a415488dff7cb6ab9f4a9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AlarmScene.unity
     guid: 692454f34e47a944cb7a30ae3a3245b1
   - enabled: 1
-    path: Assets/Scenes/Book2Scene.unity
-    guid: f6144b67def91dd43b0fe4886bed23ba
+    path: Assets/Scenes/UnityAlarmScene.unity
+    guid: 6ff883f7f16b3ce439e554daf3c13771
+  - enabled: 1
+    path: Assets/Scenes/UnityAlarmScene2.unity
+    guid: 59a140ccdcbec7c4189113c41cae1495
   - enabled: 1
     path: Assets/Scenes/BookScene.unity
     guid: babbf25191c46f94388c395f4e92eef6
   - enabled: 1
-    path: Assets/Scenes/HomeScene0.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Mission1Scene.unity
-    guid: 542aff6a3b388a5448e2227ce2be7085
-  - enabled: 1
-    path: Assets/Scenes/MissionClearScene.unity
-    guid: eaa8845190f3d4948aa8e9e9237f923b
+    path: Assets/Scenes/Book2Scene.unity
+    guid: f6144b67def91dd43b0fe4886bed23ba
   - enabled: 1
     path: Assets/Scenes/ShopScene.unity
     guid: 252063a19f0e61449a681f255066afcb
   - enabled: 1
-    path: Assets/Scenes/Mission2Scene.unity
-    guid: 394786523aa5d4c479b138da56433e0a
-  - enabled: 1
-    path: Assets/Scenes/UnityAlarmScene2.unity
-    guid: 59a140ccdcbec7c4189113c41cae1495
+    path: Assets/Scenes/HomeScene0.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/HomeScene1.unity
     guid: 6abefa566f6d4b0418c8e1db252442ef
@@ -44,18 +35,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HomeScene3.unity
     guid: ac467d7eb4968b5439cbeeb02882d373
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/HomeScene4.unity
-    guid: 8a769632aae6c264780c7e1f9dac67e9
+    guid: a98aa5673feeb264a8f5b508403f4727
   - enabled: 1
     path: Assets/Scenes/HomeScene5.unity
     guid: 5118cf381f6309442a4af45091bf41b2
   - enabled: 1
-    path: Assets/Scenes/HomeScene7.unity
-    guid: a7092f81a10ecda43a03f529da10b1e3
-  - enabled: 1
     path: Assets/Scenes/HomeScene6.unity
     guid: 2bd2ba3098451f443b16ba8a6bfa3925
+  - enabled: 1
+    path: Assets/Scenes/HomeScene7.unity
+    guid: a7092f81a10ecda43a03f529da10b1e3
   - enabled: 1
     path: Assets/Scenes/HomeScene8.unity
     guid: 7658a5a47c58424448cee01fd273a4ef
@@ -68,6 +62,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HomeScene11.unity
     guid: de6197c5ca7f32843a31f3cd2d0df142
+  - enabled: 1
+    path: Assets/Scenes/HomeScene12.unity
+    guid: aa20921746705614ba90cfdedadc3e01
   - enabled: 1
     path: Assets/Scenes/EvoScene1.unity
     guid: 52ffa61d1e9969645af741a844f55471
@@ -90,20 +87,26 @@ EditorBuildSettings:
     path: Assets/Scenes/EvoScene10.unity
     guid: 35c75201ef1332946b76132ddbf67807
   - enabled: 1
-    path: Assets/Scenes/EvoScene12.unity
-    guid: ab872230e1d75364f94ab85e796d4949
-  - enabled: 1
     path: Assets/Scenes/EvoScene11.unity
     guid: 90c224a0faa9adc4abd0534657553773
+  - enabled: 1
+    path: Assets/Scenes/EvoScene12.unity
+    guid: ab872230e1d75364f94ab85e796d4949
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/HomeScene12.unity
-    guid: aa20921746705614ba90cfdedadc3e01
+    path: Assets/Scenes/Mission1Scene.unity
+    guid: 542aff6a3b388a5448e2227ce2be7085
   - enabled: 1
-    path: Assets/Scenes/UnityAlarmScene.unity
-    guid: 6ff883f7f16b3ce439e554daf3c13771
+    path: Assets/Scenes/Mission2Scene.unity
+    guid: 394786523aa5d4c479b138da56433e0a
+  - enabled: 1
+    path: Assets/Scenes/MissionFailureScene.unity
+    guid: af17263c7f1a415488dff7cb6ab9f4a9
+  - enabled: 1
+    path: Assets/Scenes/MissionClearScene.unity
+    guid: eaa8845190f3d4948aa8e9e9237f923b
   - enabled: 1
     path: Assets/Scenes/MissionClearScene2.unity
     guid: 22c01e966a9c5c34b870175be58fc59c

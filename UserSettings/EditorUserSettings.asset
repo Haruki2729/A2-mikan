@@ -6,6 +6,7 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
+<<<<<<< HEAD
       value: 0252005052515e5e0f5a557448210a44454e1b28292d24607f714561e6b3636b
       flags: 0
     RecentlyUsedSceneGuid-1:
@@ -34,6 +35,36 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedSceneGuid-9:
       value: 025006565c07580c59585b7245750e441416417a2f2e223529281930b1e56469
+=======
+      value: 5a0157545701080b0b0f0d7b11275c4417151c7a797b7266787e4866b1b7636b
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 02530c5157075a0b085f087545700944104e4c2b2e7073357a704b37b6b96061
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 530857005006590e5b085b7745725a44451640782d7972347c2a1b62e6e1623c
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 5304035056075f0a5d5a5a7515765b4417161d2e2e2e23367d7e1f61b1e6613d
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 0005025f520d0c095c0f5b7214225944404f41737b2b77657d791b61bae66268
+      flags: 0
+    RecentlyUsedSceneGuid-5:
+      value: 5153555604570f08085d5d7b48265944474e49297e2e76642b284d37e6b56169
+>>>>>>> yamazaki(1)
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 560352000403585f5c0b557b467a094443161e7d78792768797d1b66b7b46369
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+      value: 52010456500d0c085e585a23487a0f4445151e2f792c75697c7f4c63b3b9603b
+      flags: 0
+    RecentlyUsedSceneGuid-8:
+      value: 0109065f50020b5a5a575c7b1174084440151e2f75797e327471186ab6b4376f
+      flags: 0
+    RecentlyUsedSceneGuid-9:
+      value: 0650555e5d015c0a545e0a71147706444e161972297123697f7a4a35bbb2673a
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
