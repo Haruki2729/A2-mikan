@@ -37,7 +37,7 @@ public class EvoScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GiveApple + GiveCake + GiveChicken + GiveFish == 10)
+        if (GiveApple + GiveCake + GiveChicken + GiveFish == 3)
         {
             //ƒP[ƒL
             if (GiveCake >= GiveApple && GiveCake >= GiveChicken && GiveCake >= GiveFish)

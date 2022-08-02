@@ -35,7 +35,6 @@ public class GiveAppleScript : MonoBehaviour
                 EvoScript.GiveApple++;
                 FoodScript.Apple--;
                 TodayFood++;
-                EatAppleText.text = EvoScript.GiveApple.ToString();
             }
             else
             {

@@ -20,11 +20,11 @@ public class GiveFishScript : MonoBehaviour
             if (GiveAppleScript.TodayFood <= GiveAppleScript.limit)
             {
                 GiveText.text = "おさかなをあげたよ！";
+                StartCoroutine("TextSet");//コルーチンを実行
 
                 EvoScript.GiveFish++;
                 FoodScript.Fish--;
                 GiveAppleScript.TodayFood++;
-                EatFishText.text = EvoScript.GiveFish.ToString();
             }
             else
             {
