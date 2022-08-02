@@ -20,7 +20,7 @@ public class Tap : MonoBehaviour
         Debug.Log(TapCount);
 
         
-        if (TapCount == 10)
+        if (TapCount == 100)
         {
             TapCount = 0;
             TapTextL.text = ("Clear");

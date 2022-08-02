@@ -36,7 +36,7 @@ public class Shake : MonoBehaviour
         //AppleText.text = Apple.ToString() + "ŒÂŠ";
 
 
-        if (ShakeCount == 10)
+        if (ShakeCount == 100)
         {
             ShakeCount = 0;
             // SceneManager.LoadScene("Clear");
