@@ -10,7 +10,7 @@ public class CoinScript : MonoBehaviour
     public Text CoinText;
 
     //ƒRƒCƒ“•Ï”
-    public static int coin = 10000;
+    public static int coin = 1000;
 
     void Start()
     {
