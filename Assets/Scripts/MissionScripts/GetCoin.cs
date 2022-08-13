@@ -11,7 +11,15 @@ public class GetCoin : MonoBehaviour
 
     void Start()
     {
-        CoinMaisu = TimeLimit.seconds * 50;
+        if(DateScript.todaycoin == 0)
+        {
+            CoinMaisu = TimeLimit.seconds * 50;
+            DateScript.todaycoin = 1;
+        }
+        else
+        {
+            CoinMaisu = 0;
+        }
         CoinScript.coin += CoinMaisu;
     }
 
